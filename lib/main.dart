@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'hadeel.dart';
+//import 'validators.dart';
 void main() {
-  runApp(MaterialApp(home: MyClassHadeel(),));
+
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Loginscreen(),));
 }
 
